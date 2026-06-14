@@ -7,15 +7,15 @@
 <meta name="description" content="KUMAR ($KUMAR) - The Accountant of Memes on Solana">
 
 <style>
-  body {
-  background-image: url("https://github.com/manishsharma91327/kumar-website/raw/main/kumar.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #ffffff;
-  line-height: 1.6;
-  margin: 0;
+  body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: -1;
 }
 *{
     margin:0;
