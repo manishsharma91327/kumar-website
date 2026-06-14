@@ -138,9 +138,22 @@ footer{
     </p>
 
     <div>
-        <a href="https://pump.fun/4ghtVvH3HyR7p8sD9ef3km1Rn3c9ZLwpPhtobNpPpump" target="_blank">
-  <button>🚀 Buy $KUMAR</button>
-</a>
+        <button onclick="openBox()">Buy $KUMAR 🚀</button>
+        <div id="box" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:white; padding:20px; border:2px solid black; z-index:999;">
+  
+  <h3>🚀 KUMAR COIN</h3>
+  
+  <p>Click below to open coin</p>
+
+  <a href="https://pump.fun/4ghtVvH3HyR7p8sD9ef3km1Rn3c9ZLwpPhtobNpPpump" target="_blank">
+    <button>Open Coin</button>
+  </a>
+
+  <br><br>
+
+  <button onclick="closeBox()">Close</button>
+
+</div>
         <a href="#community" class="btn">Join Community</a>
     </div>
 </header>
